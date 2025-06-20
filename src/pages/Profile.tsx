@@ -80,7 +80,7 @@ const Profile = () => {
                 <div className="text-center space-y-4">
                   <Badge className="bg-green-100 text-green-800">Премиум</Badge>
                   <p className="text-sm text-gray-600">
-                    Действует до 15.12.2024
+                    Действует до 07.08.2025
                   </p>
                   <Button variant="outline" className="w-full">
                     Продлить подписку
