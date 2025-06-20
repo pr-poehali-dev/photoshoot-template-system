@@ -28,11 +28,11 @@ const Profile = () => {
                 <div className="grid grid-cols-2 gap-4">
                   <div>
                     <Label htmlFor="firstName">Имя</Label>
-                    <Input id="firstName" defaultValue="Александр" />
+                    <Input id="firstName" defaultValue="Иван" />
                   </div>
                   <div>
                     <Label htmlFor="lastName">Фамилия</Label>
-                    <Input id="lastName" defaultValue="Фотограф" />
+                    <Input id="lastName" defaultValue="Дубин" />
                   </div>
                 </div>
 
@@ -41,20 +41,20 @@ const Profile = () => {
                   <Input
                     id="email"
                     type="email"
-                    defaultValue="photo@studio.ru"
+                    defaultValue="ivan.dubin1998@mail.ru"
                   />
                 </div>
 
                 <div>
                   <Label htmlFor="phone">Телефон</Label>
-                  <Input id="phone" defaultValue="+7 (900) 123-45-67" />
+                  <Input id="phone" defaultValue="+7 (905) 276-09-65" />
                 </div>
 
                 <div>
                   <Label htmlFor="address">Адрес студии</Label>
                   <Input
                     id="address"
-                    defaultValue="Москва, ул. Фотографов, 15"
+                    defaultValue="Волгоград, ул. Ленина, 133"
                   />
                 </div>
 
@@ -62,7 +62,7 @@ const Profile = () => {
                   <Label htmlFor="description">Описание</Label>
                   <Textarea
                     id="description"
-                    defaultValue="Профессиональная фотостудия с 10-летним опытом. Специализируемся на портретной, свадебной и корпоративной съемке."
+                    defaultValue="Профессиональная студия с 3-летним опытом. Специализируемся на создании карточек для маркетплейсов: Wildberries, Ozon и т.д."
                   />
                 </div>
 
@@ -127,15 +127,15 @@ const Profile = () => {
               <CardContent className="space-y-3">
                 <div className="flex items-center space-x-2">
                   <Phone className="h-4 w-4 text-gray-500" />
-                  <span className="text-sm">+7 (900) 123-45-67</span>
+                  <span className="text-sm">+7 (905) 276-09-65</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="h-4 w-4 text-gray-500" />
-                  <span className="text-sm">photo@studio.ru</span>
+                  <span className="text-sm">ivan.dubin1998@mail.ru</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <MapPin className="h-4 w-4 text-gray-500" />
-                  <span className="text-sm">Москва, ул. Фотографов, 15</span>
+                  <span className="text-sm">Волгоград, ул. Ленина, 133</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Camera className="h-4 w-4 text-gray-500" />
