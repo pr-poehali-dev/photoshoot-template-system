@@ -8,6 +8,10 @@ import Profile from "./pages/Profile";
 import Reports from "./pages/Reports";
 import Clients from "./pages/Clients";
 import Search from "./pages/Search";
+import Gallery from "./pages/Gallery";
+import Notifications from "./pages/Notifications";
+import Security from "./pages/Security";
+import ImageProcessing from "./pages/ImageProcessing";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +28,10 @@ const App = () => (
           <Route path="/reports" element={<Reports />} />
           <Route path="/clients" element={<Clients />} />
           <Route path="/search" element={<Search />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/notifications" element={<Notifications />} />
+          <Route path="/security" element={<Security />} />
+          <Route path="/image-processing" element={<ImageProcessing />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

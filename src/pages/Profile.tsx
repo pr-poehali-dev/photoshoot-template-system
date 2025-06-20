@@ -69,6 +69,37 @@ const Profile = () => {
                 <Button className="w-full">Сохранить изменения</Button>
               </CardContent>
             </Card>
+
+            <Card className="mt-6">
+              <CardHeader>
+                <CardTitle className="flex items-center space-x-2">
+                  <Camera className="h-5 w-5" />
+                  <span>Настройки безопасности</span>
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                  <div>
+                    <p className="font-medium">Двухфакторная аутентификация</p>
+                    <p className="text-sm text-gray-600">
+                      Дополнительная защита аккаунта
+                    </p>
+                  </div>
+                  <Badge className="bg-green-100 text-green-800">Активна</Badge>
+                </div>
+                <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                  <div>
+                    <p className="font-medium">Последний вход</p>
+                    <p className="text-sm text-gray-600">
+                      Сегодня в 10:30 с устройства Chrome
+                    </p>
+                  </div>
+                </div>
+                <Button variant="outline" className="w-full">
+                  Управление безопасностью
+                </Button>
+              </CardContent>
+            </Card>
           </div>
 
           <div className="space-y-6">
